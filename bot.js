@@ -9,8 +9,9 @@ var express = require('express');
 var packageInfo = require('./package.json');
 var bodyParser = require('body-parser');
 const nodeogram = require('nodeogram'),
+var token = 'TOKEN FROM BOT FATHER'  //Ensure TOKEN is between the apostrphes ''
 
-bot = new nodeogram.Bot('TOKEN FROM BOT FATHER HERE'); //Ensure TOKEN is between the apostrphes ''
+bot = new nodeogram.Bot(token); 
 
 //Bot Server is Initialised Here, Powered by Express and body-parser middle-ware. 
 //DO NOT CHANGE ANYTHING BELOW THIS POINT OR IT WILL CRASH THE SERVER
@@ -29,7 +30,7 @@ var server = app.listen(process.env.PORT, "0.0.0.0", function () {
 });
 
 module.exports = function (bot) {
-  app.post('/' + 'TOKEN FROM BOT FATHER HERE', function (req, res) { //Ensure TOKEN is between the apostrphes ''
+  app.post('/' + token, function (req, res) { 
     bot.processUpdate(req.body);
     res.sendStatus(200);
   });
