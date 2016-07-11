@@ -28,9 +28,19 @@ Deploy using any method on [Heroku](https://www.heroku.com). DropBox method is t
 
 As usual, Heroku will shut down the bot due to inactivity after a few hours. Use [UptimeRobot](https://uptimerobot.com) to ping your app (https://<Your App Name>.herokuapp.com) at short intervals
 
+### Heroku Hibernated My Bot, What Do I Do?
+
+Simply login to Heroku and click "Open app". This shoul setip the web-hook again and display the HerokuGram vesrion in JSON.
+
 ### Breakage Warning
 
 Do not attempt to modify the `package.json` scripts or where quoted in `bot.js` as this will instantly crash the bot. Only change the token and add your code below `bot.init();`
+
+## Examples Of Bots Using HerokuGram
+
+[@powercalcbot](https://telegram.me/powercalcbot)
+[@herokugrambot](https://telegram.me/herokugrambot)
+[@mypediabot](https://telegram.me/mypediabot)
 
 ## License
  
