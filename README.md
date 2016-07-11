@@ -40,7 +40,7 @@ Do not attempt to modify the `package.json` scripts or where quoted in `bot.js` 
 
 [@powercalcbot](https://telegram.me/powercalcbot)
 [@herokugrambot](https://telegram.me/herokugrambot)
-[@mypediabot](https://telegram.me/mypediabot)
+
 
 ## License
  
