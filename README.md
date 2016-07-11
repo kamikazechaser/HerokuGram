@@ -5,8 +5,6 @@ A :zap: Quick Telegram Starter Pack For NodeJS To be Deployed On Heroku.
 [![https://github.com/kamikazechaser/LiveCoinBot/blob/master/LICENSE.md](https://img.shields.io/badge/license-GNU%20GPLv3-lightgrey.svg)](https://github.com/kamikazechaser/LiveCoinBot/blob/master/LICENSE.md)
 [![https://telegram.me/herokugrambot](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-HerokuGram%20Bot-blue.svg)](https://telegram.me/herokugrambot)
 [![https://telegram.me/kamikazechaser](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-kamikazechaser-blue.svg)](https://telegram.me/kamikazechaser)
-[![Dependency Status](https://david-dm.org/kamikazechaser/herokugram.svg)](https://david-dm.org/kamikazechaser/herokugram.svg#info=Dependencies)
-
 
 ## Information
 
@@ -20,21 +18,19 @@ This pack utilises [Nodeogram](https://github.com/ALCC01/nodeogram), a very easy
 
 ### Why Was This Pack Made?
 
-To obviously host you bot for FREE!
+To obviously host your bot for FREE!
 
 ### Deployment
-Deploy using any method on [Heroku](https://www.heroku.com). DropBox method is the easiest of them all.
+
+Deploy using any method on [Heroku](https://www.heroku.com). DropBox method is the easiest of them all. Just download, unzip and push to Heroku.
 
 ### Keep Bot Alive
 
 As usual, Heroku will shut down the bot due to inactivity after a few hours. Use [UptimeRobot](https://uptimerobot.com) to ping your app (https://<Your App Name>.herokuapp.com) at short intervals
 
-### Extra Info
+### Breakage Warning
 
-Do not attempt to modify the `package.json` or where quoted in `bot.js` as this will instantly crash the bot. Only change the token and add your code below `bot.init`
-
-
-
+Do not attempt to modify the `package.json` scripts or where quoted in `bot.js` as this will instantly crash the bot. Only change the token and add your code below `bot.init();`
 
 ## License
  
