@@ -9,7 +9,7 @@ var express = require('express');
 var packageInfo = require('./package.json');
 var bodyParser = require('body-parser');
 const nodeogram = require('nodeogram'),
-var token = 'TOKEN FROM BOT FATHER'  //Ensure TOKEN is between the apostrphes ''
+var token = '243422907:AAGcmaAuAWN0avKf8xK9AbD5mHpu2R2H6O4'  //Ensure TOKEN is between the apostrphes ''
 
 bot = new nodeogram.Bot(token); 
 
