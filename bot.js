@@ -61,7 +61,7 @@ keyboard.addButton(3, 1, {text: "Gravity Constant", callback_data: "G = 9.80665 
 keyboard.toInline();
 
 bot.command('start', 'Displays "usage" For the first time', true, (args, message) => {
-    message.reply("*Welcome To PowerCalcBot*\n\n/help\n/examples\n\n⚒`Made By` @kamikazechaser", {parse_mode: 'Markdown'})
+    message.reply("*Welcome To PowerCalcBot*\n\n/help\n/examples\n\n⚒`Made By` @kamikazechaser\n🌀`Powered By HerokuGram`\n\n@herokugrambot", {parse_mode: 'Markdown'})
 });
 
 bot.command('examples', 'Examples of commands', false, (args, message) => {
