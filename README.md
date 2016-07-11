@@ -3,7 +3,7 @@
 A :zap: Quick Telegram Starter Pack For NodeJS To be Deployed On Heroku.
 
 [![https://github.com/kamikazechaser/LiveCoinBot/blob/master/LICENSE.md](https://img.shields.io/badge/license-GNU%20GPLv3-lightgrey.svg)](https://github.com/kamikazechaser/LiveCoinBot/blob/master/LICENSE.md)
-[![https://telegram.me/herokugrambot](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-HerokuGram%20Bot-blue.svg)](https://telegram.me/herokugrambot)
+[![https://telegram.me/herokugram](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-HerokuGram%20Channel-blue.svg)](https://telegram.me/herokugram)
 [![https://telegram.me/kamikazechaser](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-kamikazechaser-blue.svg)](https://telegram.me/kamikazechaser)
 
 ## Information
@@ -39,7 +39,6 @@ Do not attempt to modify the `package.json` scripts or where quoted in `bot.js` 
 ## Examples Of Bots Using HerokuGram
 
 [@powercalcbot](https://telegram.me/powercalcbot)
-[@herokugrambot](https://telegram.me/herokugrambot)
 
 
 ## License
