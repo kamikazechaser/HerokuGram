@@ -30,7 +30,7 @@ As usual, Heroku will shut down the bot due to inactivity after a few hours. Use
 
 ### Heroku Hibernated My Bot, What Do I Do?
 
-Simply login to Heroku and click "Open app". This shoul setip the web-hook again and display the HerokuGram vesrion in JSON.
+Simply login to Heroku and click "Open app". This should setup the web-hook again and display the HerokuGram vesrion in JSON.
 
 ### Breakage Warning
 
