@@ -10,7 +10,7 @@ A :zap: Quick Telegram Starter Pack For NodeJS To be Deployed On Heroku.
 
 ### How Does It Work?
 
-This Quick Start pack combines Express and body-parser middleware to set up a webhook on Telegram, allowing you to run your bot.
+This Quick Start pack combines Express and body-parser middleware to set up a webhook on Telegram, allowing you to run your bot on Heroku.
 
 ### Nodeogram
 
