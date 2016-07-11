@@ -9,9 +9,8 @@ var express = require('express');
 var packageInfo = require('./package.json');
 var bodyParser = require('body-parser');
 const nodeogram = require('nodeogram'),
-var token = '243422907:AAGcmaAuAWN0avKf8xK9AbD5mHpu2R2H6O4'  //Ensure TOKEN is between the apostrphes ''
 
-bot = new nodeogram.Bot(token); 
+bot = new nodeogram.Bot('243422907:AAGcmaAuAWN0avKf8xK9AbD5mHpu2R2H6O4'); 
 
 //Bot Server is Initialised Here, Powered by Express and body-parser middle-ware. 
 //DO NOT CHANGE ANYTHING BELOW THIS POINT OR IT WILL CRASH THE SERVER
@@ -30,7 +29,7 @@ var server = app.listen(process.env.PORT, "0.0.0.0", function () {
 });
 
 module.exports = function (bot) {
-  app.post('/' + token, function (req, res) { 
+  app.post('/' + '243422907:AAGcmaAuAWN0avKf8xK9AbD5mHpu2R2H6O4', function (req, res) { 
     bot.processUpdate(req.body);
     res.sendStatus(200);
   });
