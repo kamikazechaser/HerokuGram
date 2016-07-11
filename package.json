@@ -1,0 +1,19 @@
+{
+  "name": "herokugram",
+  "version": "1.4.0",
+  "description": "Starter pack for running telegram bot on the Heroku using Nodeogram and Express on NodeJS",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export $(cat .env | xargs) && node bot.js",
+    "set_env": "export $(cat .env | xargs)",
+    "switch_to_dev": "export $(cat .env | xargs) && wget --spider https://api.telegram.org/bot$TOKEN/setWebhook?url= --delete-after && node bot.js"
+  },
+  "author": "Mohammed Sohail",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodeogram": "^0.0.3"
+  }
+}
