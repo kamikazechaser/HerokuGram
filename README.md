@@ -1,4 +1,4 @@
-# Herokugram
+# HerokuGram
 
 A :zap: Quick Telegram Starter Pack For NodeJS To be Deployed On Heroku.
 
