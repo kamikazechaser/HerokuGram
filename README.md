@@ -5,7 +5,7 @@ A :zap: Quick Telegram Starter Pack For NodeJS To be Deployed On Heroku.
 [![https://github.com/kamikazechaser/LiveCoinBot/blob/master/LICENSE.md](https://img.shields.io/badge/license-GNU%20GPLv3-lightgrey.svg)](https://github.com/kamikazechaser/LiveCoinBot/blob/master/LICENSE.md)
 [![https://telegram.me/herokugrambot](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-HerokuGram%20Bot-blue.svg)](https://telegram.me/herokugrambot)
 [![https://telegram.me/kamikazechaser](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-kamikazechaser-blue.svg)](https://telegram.me/kamikazechaser)
-[![devDependency Status](https://david-dm.org/kamikazechaser/herokugram.svg)](https://david-dm.org/kamikazechaser/herokugram.svg#info=devDependencies)
+[![Dependency Status](https://david-dm.org/kamikazechaser/herokugram.svg)](https://david-dm.org/kamikazechaser/herokugram.svg#info=Dependencies)
 
 
 ## Information
