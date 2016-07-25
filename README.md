@@ -36,6 +36,11 @@ Simply login to Heroku and click "Open app". This should setup the web-hook agai
 
 Do not attempt to modify the `package.json` scripts or where quoted in `bot.js` as this will instantly crash the bot. Only change the token and add your code below `bot.init();`
 
+### Heroku Logs
+
+The below error usually shows up in the logs but *it does not affect the bot*.
+`An error occurred while querying the Telegram API - 409 Conflict: terminated by other long poll or webhook` 
+
 ## Examples Of Bots Using HerokuGram
 
 [@powercalcbot](https://telegram.me/powercalcbot)
