@@ -53,7 +53,7 @@ bot.command('start', '', true, (args, message) => {
     if (args[0] != '') {
         updateUser(message.chat, args[0])
     } else {
-        message.reply(`Hello there!\n\nI'm @redditlive_bot. I can fetch Reddit live threads and forward to you incoming messages, in order to keep you always updated.\n\nPlease use /follow to start following a thread. If any error occurs or you have a suggestion, you can query my owner @ALCC01 (https://albertocoscia.me).`)
+        message.reply(`Hello there!\n\nI'm @rlivebot. I can fetch Reddit live threads and forward to you incoming messages, in order to keep you always updated.\n\nPlease use /follow to start following a thread. If any error occurs or you have a suggestion, you can query my owner @kamikazechaser`)
     }
 });
 
