@@ -11,7 +11,7 @@ var bodyParser = require('body-parser');
 const nodeogram = require('nodeogram'),
 WebSocketClient = require('websocket').client,
 
-bot = new nodeogram.Bot('144963545:AAEHK3twQ9PCw3v6xVm-PTB5ABeKtEazXgw', {profiles_path: __dirname + '/profiles.json', enableHelp: true}), //Ensure TOKEN is between the apostrphes ''
+bot = new nodeogram.Bot('144963545:AAF9NsHqVQQnynWutlMhzF6jNNWfn8Ljc7A', {profiles_path: __dirname + '/profiles.json', enableHelp: true}), //Ensure TOKEN is between the apostrphes ''
 request = require('superagent-promise')(require('superagent'), Promise);
 
 //Bot Server is Initialised Here, Powered by Express and body-parser middle-ware. 
@@ -31,7 +31,7 @@ var server = app.listen(process.env.PORT, "0.0.0.0", function () {
 });
 
 module.exports = function (bot) {
-  app.post('/' + '144963545:AAEHK3twQ9PCw3v6xVm-PTB5ABeKtEazXgw', function (req, res) { //Ensure TOKEN is between the apostrphes ''
+  app.post('/' + '144963545:AAF9NsHqVQQnynWutlMhzF6jNNWfn8Ljc7A', function (req, res) { //Ensure TOKEN is between the apostrphes ''
     bot.processUpdate(req.body);
     res.sendStatus(200);
   });
