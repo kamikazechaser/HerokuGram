@@ -12,7 +12,7 @@
   "author": "Mohammed Sohail",
   "license": "GPL-3.0",
   "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.17.2",
     "express": "^4.14.0",
     "nodeogram": "^0.0.7"
   }
